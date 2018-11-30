@@ -19,10 +19,15 @@ export const pluginsArray = [
 	filesize(),
 	autoExternal(),
 ];
+
 export const react = 'react';
 export const PropTypes = 'prop-types';
 export const reactDom = 'react-dom';
+export const reduxFriends = 'redux-friends';
+export const reactRedux = 'react-redux';
+export const reactNative = 'react-native';
+export const i18nJs = 'i18n-js';
 
-export const external = [react, reactDom, PropTypes];
+export const external = [react, reactDom, PropTypes, reduxFriends, reactRedux, reactNative, i18nJs];
 export const mainInput = 'src/index.js';
 export const needCss = true;

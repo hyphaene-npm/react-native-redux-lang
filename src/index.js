@@ -1,4 +1,13 @@
-/* eslint-disable import/extensions */
-import AnExample from './AnExample/index.jsx';
+import I18nProvider from './Provider';
+import Translate from './Translate';
+import { setLocale, getLocale, getTranslations, createI18nReducer, I18N_RK } from './redux';
 
-export default AnExample;
+export {
+	I18nProvider,
+	Translate,
+	setLocale,
+	getLocale,
+	getTranslations,
+	createI18nReducer,
+	I18N_RK,
+};
