@@ -1,10 +1,10 @@
 {
-	"name": "react-native-redux-18n",
+	"name": "react-native-redux-lang",
 	"version": "0.0.0",
 	"description": "internationalization via redux for react-native",
-	"author": "Maximilien Garenne &lt;maximilien.garenne@gmail.com&gt;",
+	"author": "Maximilien Garenne <maximilien.garenne@gmail.com>",
 	"license": "",
-	"main": "build/index.cjs.js",
+	"main": "build/index.js",
 	"module": "build/index.esm.js",
 	"browser": "build/index.js",
 	"style": "build/index.css",
@@ -31,6 +31,7 @@
 		"rollup react",
 		"component"
 	],
+	"files": ["build"],
 	"dependencies": {
 		"@storybook/react": "^3.4.1",
 		"i18n-js": "^3.1.0",
